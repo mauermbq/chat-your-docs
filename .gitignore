@@ -1,0 +1,19 @@
+# env local, vscode, py, jupyter
+.env
+.ipynb_checkpoints
+.vscode
+.jupyter
+__pycache__
+*.py[cod]
+.python-version
+
+#chroma
+chroma
+
+# macOS
+*.DS_Store
+
+
+
+
+

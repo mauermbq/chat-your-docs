@@ -3,7 +3,7 @@ from InstructorEmbedding import INSTRUCTOR
 import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from langchain.embeddings import HuggingFaceEmbeddings
-from  import LLM
+
 
 EMB_INSTRUCTOR_XL = "hkunlp/instructor-xl"
 EMB_SBERT_MPNET_BASE = "sentence-transformers/all-mpnet-base-v2"
